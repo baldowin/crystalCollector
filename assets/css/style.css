@@ -5,12 +5,28 @@
     margin-top: 20px;
     margin-left:5px;
 }
+#title{
+    font: 800;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+#rules{
+    font-size: 20px;
+}
 .crystalImg{
     height: 100%;
     width: 100%;
 }
 #win-loss{
-    margin-left: 40px;
+    margin-left: 160px;
+    font-size: 25px;
+}
+#target{
+    font-size: 40px;
+}
+#target-text{
+    font-size: 40px;
+    margin-left: 46px;
 }
 .gameParam{
     float: left;
@@ -24,4 +40,9 @@
     float: left;
     clear: both;
     margin-top: 20px;
+    font-size: 40px;
+    margin-left:80px;
+}
+#score{
+    margin-left:250px;
 }

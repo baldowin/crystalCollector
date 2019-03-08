@@ -20,13 +20,11 @@ function clicked(index){
     $("#score").text(score);
     document.getElementById(buttons[index]).textContent=crystals[index];
     if(score===goal){
-        alert("you win!");
         wins++;
         $("#wins").text(wins);
         populate();
     }
     else if(score>goal){
-        alert("you lose!");
         losses++;
         $("#losses").text(losses);
         populate();
